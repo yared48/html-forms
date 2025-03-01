@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: lightblue;">
+    <h1>modify content example</h1>
+    <p id="textparagraph">this is the original text</p>
+    <button id="changetextbtn">change text</button>
+    <button id="changeHTMLbtn">change HTML</button>
+    <script>
+        //your javascript will go here
+        //selecting element
+    const textparagraph = document.getElementById('textparagraph');
+    const changeTextBtn = document.getElementById('changetextbtn');
+    const changeHTMLBtn = document.getElementById('changeHTMLbtn');
+    //change text content
+    changeTextBtn.addEventListener('click', function(){
+        textparagraph.textContent = 'The text has been changed';
+    });
+     //change text content
+     changeHTMLBtn.addEventListener('click', function(){
+        textparagraph.innerHTML = 'The <strong>HTML</strong> has been changed';
+     });
+    </script>
+</body>
+</html>

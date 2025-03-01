@@ -1,0 +1,24 @@
+h2{
+    color: rgb(19, 18, 18);
+    background-color: gold;
+}
+h2{
+    font-style: inherit;
+}
+p{
+    color: rgb(7, 24, 14);
+}
+.text{
+    background-color: rgb(146, 146, 173);
+}
+#header{
+    color:rgb(17, 15, 15);
+}
+*{
+    
+}
+input[type="text"]{
+    color: rgb(235, 220, 220);
+    border: 5px solid;
+}
+a:hover{color: red;}
